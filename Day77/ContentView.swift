@@ -19,6 +19,8 @@ struct ContentView: View {
     @State var people: [LabeledImage] = []
     
     @State private var selectedImage: Image?
+    
+    //vjdfbvdjbf
 
     @State private var selectedItem: PhotosPickerItem?
     
