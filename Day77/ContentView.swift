@@ -6,6 +6,7 @@
  Show all names and photos in a list, sorted by name.
  
  Create a detail screen that shows a picture full size.
+ 
  Decide on a way to save all this data.
 */
 
@@ -31,6 +32,17 @@ struct ContentView: View {
     }
  
     var body: some View {
+
+        ScrollView{
+            ForEach(people, id: \.name){ person in
+                VStack{
+                    person.face
+                        .resizable()
+                        .scaledToFit()
+                    Text(person.name)
+                }
+            }
+        }
         VStack{
             PhotosPicker(selection: $selectedItem) {
                 if people.isEmpty {
@@ -52,16 +64,6 @@ struct ContentView: View {
             Button("OK", action: addPerson)
         } message: {
             Text("Xcode will print whatever you type.")
-        }
-        ScrollView{
-            ForEach(people, id: \.name){ person in
-                VStack{
-                    person.face
-                        .resizable()
-                        .scaledToFit()
-                    Text(person.name)
-                }
-            }
         }
     }
 }
