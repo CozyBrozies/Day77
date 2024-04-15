@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1015D32BCD8FC7003DF69C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1015D22BCD8FC7003DF69C /* DetailView.swift */; };
+		6D1015D52BCD929B003DF69C /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1015D42BCD929B003DF69C /* LocationFetcher.swift */; };
+		6D1015D72BCD92E9003DF69C /* TestLocationFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1015D62BCD92E9003DF69C /* TestLocationFunctionView.swift */; };
 		6DD8C00A2BCB34F600B340D2 /* Day77App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8C0092BCB34F600B340D2 /* Day77App.swift */; };
 		6DD8C00C2BCB34F600B340D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8C00B2BCB34F600B340D2 /* ContentView.swift */; };
 		6DD8C00E2BCB34F700B340D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD8C00D2BCB34F700B340D2 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D1015D22BCD8FC7003DF69C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6D1015D42BCD929B003DF69C /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		6D1015D62BCD92E9003DF69C /* TestLocationFunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocationFunctionView.swift; sourceTree = "<group>"; };
 		6DD8C0062BCB34F600B340D2 /* Day77.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day77.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD8C0092BCB34F600B340D2 /* Day77App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day77App.swift; sourceTree = "<group>"; };
 		6DD8C00B2BCB34F600B340D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			children = (
 				6DD8C0092BCB34F600B340D2 /* Day77App.swift */,
 				6DD8C00B2BCB34F600B340D2 /* ContentView.swift */,
+				6D1015D22BCD8FC7003DF69C /* DetailView.swift */,
 				6DD8C0172BCC397D00B340D2 /* LabeledImage.swift */,
+				6D1015D62BCD92E9003DF69C /* TestLocationFunctionView.swift */,
+				6D1015D42BCD929B003DF69C /* LocationFetcher.swift */,
 				6DD8C00D2BCB34F700B340D2 /* Assets.xcassets */,
 				6DD8C00F2BCB34F700B340D2 /* Preview Content */,
 			);
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD8C0182BCC397D00B340D2 /* LabeledImage.swift in Sources */,
+				6D1015D32BCD8FC7003DF69C /* DetailView.swift in Sources */,
+				6D1015D52BCD929B003DF69C /* LocationFetcher.swift in Sources */,
 				6DD8C00C2BCB34F600B340D2 /* ContentView.swift in Sources */,
 				6DD8C00A2BCB34F600B340D2 /* Day77App.swift in Sources */,
+				6D1015D72BCD92E9003DF69C /* TestLocationFunctionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
